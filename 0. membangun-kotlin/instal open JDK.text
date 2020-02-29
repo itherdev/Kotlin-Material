@@ -1,0 +1,16 @@
+Sebelum melakukan instalasi OpenJDK dengan SDKMAN, pastikan SDKMAN sudah terinstal dulu.
+langkah-langkah untuk menginstal SDKMAN pada Linux :
+1. Pastikan Anda sudah melakukan instalasi paket Curl. Jika belum, jalankan perintah berikut pada terminal :
+sudo apt install curl
+2.Setelah itu, jalankan perintah berikut untuk instalasi SDKMAN:
+curl -s "https://get.sdkman.io" | bash
+3. Kemudian, jalankan perintah berikut:
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+4. Untuk memastikan SDKMAN berhasil diinstal, gunakan perintah berikut:
+sdk version
+
+
+instalasi OpenJDK via SDKMAN :
+sdk install java 13.0.1-open
+sdk list java
+java version
